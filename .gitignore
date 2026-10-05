@@ -1,0 +1,52 @@
+/.lokalno/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*~
+*.swp
+
+# MPLAB X / XC8
+build/
+dist/
+debug/
+nbproject/private/
+*.o
+*.p1
+*.p1.d
+*.i
+*.d
+*.elf
+*.cof
+*.cmf
+*.hxl
+*.lst
+*.map
+*.mum
+*.rlf
+*.sdb
+*.sym
+*.hex
+!MPLAB X/Berina.X.production.hex
+
+# Proteus
+*.pdsbak
+*.workspace
+*.workspace.layout
+*.pdsprj.*
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+Izvještaj/bare_jrnl.pdf
